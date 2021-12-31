@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    height: 100vh;
+    background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-part {
+    height: 40vh;
+    width: 40vw;
+    border-radius: 20px;
+    background-color: rgb(7, 221, 193);
+    box-shadow: 10px 5px 5px black;
+}
+
+input,
+button {
+    border-radius: 5px;
+}
+
+.footer-part {
+    display: block;
+    padding: 7% 15%;
+    text-align: center;
+}
